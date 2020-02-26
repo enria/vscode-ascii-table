@@ -1,9 +1,14 @@
 {
-	"name": "ascii-index",
-	"displayName": "ASCII index",
-	"description": "Show ASCII code index in vscode palette",
+	"name": "ascii-table",
+	"displayName": "ASCII Table",
+	"description": "Show ASCII code table in palette",
 	"version": "1.0.0",
 	"publisher": "zhangyd",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/enria/vscode-ascii-table.git"
+	},
+	"icon": "ascii.png",
 	"engines": {
 		"vscode": "^1.42.0"
 	},
