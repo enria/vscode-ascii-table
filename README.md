@@ -11,3 +11,5 @@ Show ASCII code table in palette
 ### Show printable ASCII code
 
 ![All ASCII code](https://pic.downk.cc/item/5e5692b06127cc0713df0adf.gif)
+
+Icon file copyright: https://ascii.cn.aptoide.com

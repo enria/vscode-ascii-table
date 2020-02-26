@@ -4,6 +4,7 @@
 	"description": "Show ASCII code table in palette",
 	"version": "1.0.0",
 	"publisher": "zhangyd",
+	"keywords": ["ascii","table","tip","index"],
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/enria/vscode-ascii-table.git"
