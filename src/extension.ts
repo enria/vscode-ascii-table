@@ -131,7 +131,7 @@ export function activate(context: vscode.ExtensionContext) {
 		{ label: "~", description: "126" },
 		{ label: "DEL", description: "127", detail: "delete" }];
 	let allDisposable = vscode.commands.registerCommand('extension.allChars', () => {
-		vscode.window.showQuickPick(items, { matchOnDetail: true });
+		vscode.window.showQuickPick(items, { matchOnDescription: true });
 	});
 
 	let printableItems: vscode.QuickPickItem[] = [
