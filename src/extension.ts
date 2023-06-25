@@ -131,7 +131,7 @@ export function activate(context: vscode.ExtensionContext) {
 		{ label: "~", description: "126" },
 		{ label: "DEL", description: "127", detail: "delete" }];
 	let allDisposable = vscode.commands.registerCommand('extension.allChars', () => {
-		vscode.window.showQuickPick(items);
+		vscode.window.showQuickPick(items, { matchOnDescription: true });
 	});
 
 	let printableItems: vscode.QuickPickItem[] = [
@@ -150,7 +150,7 @@ export function activate(context: vscode.ExtensionContext) {
 		{ label: "u        v        w       x        y        z", detail: "117　118　119　120　121　122" },
 		{ label: "{         |         }        ~", detail: "123　124　125　126" }];
 	let printableDisposable = vscode.commands.registerCommand('extension.printableChars', () => {
-		vscode.window.showQuickPick(printableItems);
+		vscode.window.showQuickPick(printableItems, { matchOnDetail: true });
 	});
 
 	context.subscriptions.push(allDisposable);
